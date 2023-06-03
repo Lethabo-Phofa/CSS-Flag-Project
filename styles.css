@@ -1,0 +1,48 @@
+/* first div or big rectangle */
+
+.flag {
+    background-color: #CE1126;
+    height: 600px;
+    width: 900px;
+    position: relative;
+
+}
+
+/* second div or smaller rectangle */
+
+.flag > div {
+    background-color: #002868;
+    height: 50%;
+    width: 100%;
+    top: 150px;
+    position: absolute;
+
+}
+
+ 
+/* third div or circle */
+
+.flag > div > div  {
+    background-color: #FFFFFF;
+    position: relative;
+    border-radius: 50%;
+    width: 200px;
+    left: 37.5%;
+    height: 200px;
+    top: 16%;
+
+    /* to get it exactly centred, you need to remove the margins of the <p> element "of Laos" */
+
+}
+
+p {
+    margin: 0%;
+    font-size: 50pt;
+    text-align: center;
+}
+
+.flag > p {
+    color: white;
+}
+
+
